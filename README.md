@@ -64,6 +64,11 @@ It integrates well with Git, making it a popular choice for MLOps (Machine Learn
 ```bash
 dvc repro
 ```
+
+10. Check Dag:
+```bash
+dvc dag
+```
 5. Version Control Data and Models:
  - Add large datasets or models to DVC and push them to remote storage. DVC will generate small "tracking files" in the Git repository, while the actual data remains in the remote storage:
 
